@@ -18,7 +18,6 @@ if __name__ == "__main__":
     model.Obj = pyo.Objective(expr=(4 * x1) + (3 * x2), sense=pyo.maximize)
     
     # Constrains' definition
-
     model.Constraint_1 = pyo.Constraint(expr=x1 + x2 <= 40)
     model.Constraint_2 = pyo.Constraint(expr=2 * x1 + x2 <= 60)
 

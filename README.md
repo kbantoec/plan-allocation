@@ -1,4 +1,4 @@
-# plan-allocation
+# Allocation plan
 
 Allocation plan using mathematical optimization techniques.
 
